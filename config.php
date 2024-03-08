@@ -1,5 +1,5 @@
 <?php
-$servername = getenv('49036') ?: "localhost";
+$servername = getenv('MYSQLPORT') ?: "localhost";
 $username = getenv('MYSQLUSER') ?: "root";
 $password = getenv('MYSQL_ROOT_PASSWORD') ?: "admin";
 $dbname = getenv('MYSQLDATABASE') ?: "railway";
